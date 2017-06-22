@@ -6,25 +6,25 @@ eureka:
 
 ---
 spring:
-  profiles: adjective
+  profiles: client-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: article
+  profiles: client-article
 words: a,the
 
 ---
 spring:
-  profiles: noun
+  profiles: client-noun
 words: boat,book,vote,seat,backpack,partition,groundhog
 
 ---
 spring:
-  profiles: subject
+  profiles: client-subject
 words: I,You,He,She,It
 
 ---
 spring:
-  profiles: verb
+  profiles: client-verb
 words: ran,knew,had,saw,bought
